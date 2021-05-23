@@ -4,6 +4,7 @@
 $(document).ready(function(){
     $(".st-BAW").click(function(){
         Cookies.set('baw','false');
+        location.reload();
     })
 })
 
